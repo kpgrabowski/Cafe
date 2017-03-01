@@ -15,6 +15,19 @@ class ExtraStuffBuilder {
         return this;
     }
 
+    withAddDoubleSuger(addDoubleSuger) {
+        assert(addDoubleSuger instanceof Boolean);
+
+        this._addDoubleSuger = addDoubleSuger;
+        return this;
+    }
+
+    withWithoutSuger(withoutSuger) {
+        assert(withoutSuger instanceof Boolean);
+
+        this._withoutSuger = withoutSuger;
+        return this;
+    }
 
 
 }

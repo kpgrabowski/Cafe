@@ -1,3 +1,5 @@
-/**
- * Created by KGrabowski on 03.03.2017.
- */
+class LatteCafe {
+    constructor() {
+
+    }
+}

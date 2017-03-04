@@ -6,19 +6,30 @@
     <link rel="stylesheet" href="cafe.css">
 </head>
 <body>
-<img class="heading" src="Images/starbucks.jpg" id="logo">
-<br>
-<form class="suger">
-    <input type="radio" name="validator" value="validatorAddSuger" checked /> Add Suger<br>
-    <input type="radio" name="validator" value="validatorAddDoubleSuger" checked /> Add Double Suger<br>
-    <input type="radio" name="validator" value="validatorWithoutSuger" checked /> Without Suger<br>
-</form>
 
-<form class="milk">
-    <input type="radio" name="validator" value="validatorAddMilk" checked /> Add Milk<br>
-    <input type="radio" name="validator" value="validatorAddDoubleMilk" checked /> Add Double Milk<br>
-    <input type="radio" name="validator" value="validatorWithoutMilk" checked /> Without Milk<br>
-</form>
+<div id="container">
+    <div id="logo">
+        <img src="Images/starbucks.jpg"/>
+    </div>
+        <div id="suger">
+            <form class="suger">
+                <input type="radio" name="validator" value="validatorAddSuger" checked /> Add Suger<br>
+                <input type="radio" name="validator" value="validatorAddDoubleSuger" checked /> Add Double Suger<br>
+                <input type="radio" name="validator" value="validatorWithoutSuger" checked /> Without Suger<br>
+            </form>
+        </div>
+            <div id="kinfOfCofe">
+            </div>
+                <div id="milk">
+                    <form class="milk">
+                        <input type="radio" name="validator" value="validatorAddMilk" checked /> Add Milk<br>
+                        <input type="radio" name="validator" value="validatorAddDoubleMilk" checked /> Add Double Milk<br>
+                        <input type="radio" name="validator" value="validatorWithoutMilk" checked /> Without Milk<br>
+                    </form>
+                </div>
+                    <div id="information">
+                    </div>
+</div>
 <script type="text/javascript" src="assert/assert.js" ></script>
 <script type="text/javascript" src="Model/ExtraStuff.js" ></script>
 <script type="text/javascript" src="Model/ExtraStuffImpl.js" ></script>

@@ -13,35 +13,35 @@ class ExtraStuffBuilder {
     withAddDoubleSuger(flag) {
         assert(addDoubleSuger instanceof Boolean);
 
-        this._addDoubleSuger += new SigleStuff(flag, new Number(2));
+        this._allStuff += new SigleStuff(flag, new Number(2));
         return this;
     }
 
     withWithoutSuger(flag) {
         assert(withoutSuger instanceof Boolean);
 
-        this._withoutSuger += new SigleStuff(flag, new Number(0));
+        this._allStuff += new SigleStuff(flag, new Number(0));
         return this;
     }
 
     withAddMilk(flag) {
         assert(addMilk instanceof Boolean);
 
-        this._addMilk += new SigleStuff(flag, new Number(2));
+        this._allStuff += new SigleStuff(flag, new Number(2));
         return this;
     }
 
     withAddDoubleMilk(flag) {
         assert(addDoubleMilk instanceof Boolean);
 
-        this._addDoubleMilk += new SigleStuff(flag, new Number(4));
+        this._allStuff += new SigleStuff(flag, new Number(4));
         return this;
     }
 
     withWithoutMilk(flag) {
         assert(withoutMilk instanceof Boolean);
 
-        this._withoutMilk += new SigleStuff(flag, new Number(0));
+        this._allStuff += new SigleStuff(flag, new Number(0));
         return this;
     }
 

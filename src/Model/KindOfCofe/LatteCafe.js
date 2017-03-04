@@ -1,5 +1,5 @@
 class LatteCafe {
-    constructor() {
-
+    constructor(cost) {
+        this.cost = new Number(10);
     }
 }

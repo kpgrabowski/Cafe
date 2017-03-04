@@ -1,5 +1,5 @@
 class Espresso {
-    constructor() {
-
+    constructor(cost) {
+        this.cost = new Number(8);
     }
 }
